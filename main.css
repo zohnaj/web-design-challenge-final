@@ -1,5 +1,8 @@
 body{
     background-color: white;
+    height: 700px;
+    background-size:cover;
+    background-position:center;
 }
 
 .navbar{
@@ -8,7 +11,7 @@ body{
 
 .navigation .navbar-brand{
     color: black;
-    margin-left: 60px;
+    margin-left: 5px;
     padding:inherit;
     font-weight: bold;
     background-color:white;
@@ -28,9 +31,9 @@ body{
 }
 
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropwdown-menu .dropdown-item:hover{
-    background-color: white;
+    background-color: grey;
 }
-
+    
 a{
     color: black;
     font-size: 16px;
